@@ -1,0 +1,9 @@
+network.host: 127.0.0.1
+http.port: 9200
+http.enabled: true
+gateway.expected_nodes: 1
+cluster.routing.allocation.disk.watermark.low: 512mb
+cluster.routing.allocation.disk.watermark.high: 256mb
+path.data: target/test/testdata2
+path.home: target/test
+transport.type: local
